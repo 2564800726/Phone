@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Phone</string>
+    <string name="call_in">呼入电话</string>
+    <string name="call_out">呼出电话</string>
+    <string name="call_miss">未接电话</string>
+    <string name="btn_make_call">打电话</string>
+    <string name="btn_send_message">发信息</string>
+    <string name="btn_cancel">取消</string>
+</resources>
