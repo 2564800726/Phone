@@ -47,5 +47,5 @@
 **联系人头像**
 <br>
 
-![联系人头像](https://github.com/2564800726/Phone/blob/master/img/(QL4W%60E60EAQR68P74GI@SL.png?raw=true)
+![联系人头像](https://github.com/2564800726/Phone/blob/master/img/QL4W%60E60EAQR68P74GI@SL.png?raw=true)
 <br>
