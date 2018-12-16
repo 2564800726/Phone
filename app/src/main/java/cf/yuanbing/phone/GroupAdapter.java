@@ -2,6 +2,7 @@ package cf.yuanbing.phone;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
@@ -76,7 +77,9 @@ public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.GroupViewHol
 
     private void setContacts(GroupViewHolder holder, int i) {
         holder.contactList.setAdapter(new ContactAdapter(groupMembers.get(i)));
-        holder.contactList.setLayoutManager(new LinearLayoutManager(context));
+        LinearLayoutManager layoutManager = new LinearLayoutManager(context);
+        holder.contactList.setLayoutManager(layoutManager);
+        holder.contactList.addItemDecoration(new DividerItemDecoration(context, layoutManager.getOrientation()));
         MyItemTouchHelper myItemTouchHelper = new MyItemTouchHelper(
                 new MyItemTouchHelper.MySimpleCallback(ItemTouchHelper.END,
                         ItemTouchHelper.LEFT, holder.contactList, this, holder));
