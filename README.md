@@ -18,22 +18,34 @@
 **MyItemTouchHelper.java**<br>
 ***存储每条通话记录的Bean***<br>
 **Contact.java**<br>
-
+<br>
+## 滑动删除只可以删除软件里的数据，并不会删除手机里的通讯记录*
 <br>
 
 **呼入电话**
 
 ![呼入电话](https://github.com/2564800726/Phone/blob/master/img/Screenshot_20181214-224858.jpg?raw=true)
 <br>
+<br>
 **删除一个Item**
+<br>
 <br>
 ![删除一个Item](https://github.com/2564800726/Phone/blob/master/img/Screenshot_20181214-224904.jpg?raw=true)
 <br>
+<br>
 **呼出电话**
 <br>
+<br>
 ![呼出电话](https://github.com/2564800726/Phone/blob/master/img/Screenshot_20181214-224908.jpg?raw=true)
+<br>
 <br>
 **未接电话**
 <br>
 ![未接电话](https://github.com/2564800726/Phone/blob/master/img/Screenshot_20181214-224912.jpg?raw=true)
+<br>
+<br>
+**联系人头像**
+<br>
+
+![联系人头像](https://github.com/2564800726/Phone/blob/master/img/(QL4W%60E60EAQR68P74GI@SL.png?raw=true)
 <br>
